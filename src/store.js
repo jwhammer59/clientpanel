@@ -6,15 +6,16 @@ import { reduxFirestore, firestoreReducer } from 'redux-firestore';
 // Reducers
 import notifyReducer from './reducers/notifyReducer';
 import settingsReducer from './reducers/settingsReducer';
+import firebaseconfig from './firebaseConfig';
 
-const firebaseconfig = {
-  apiKey: 'AIzaSyAKegmVD1GF92OZcmLYkzP1MRGUxIQS1pE',
-  authDomain: 'reactclientpanel-abfb8.firebaseapp.com',
-  databaseURL: 'https://reactclientpanel-abfb8.firebaseio.com',
-  projectId: 'reactclientpanel-abfb8',
-  storageBucket: 'reactclientpanel-abfb8.appspot.com',
-  messagingSenderId: '629513546620'
-};
+// const firebaseconfig = {
+//   apiKey: 'AIzaSyAKegmVD1GF92OZcmLYkzP1MRGUxIQS1pE',
+//   authDomain: 'reactclientpanel-abfb8.firebaseapp.com',
+//   databaseURL: 'https://reactclientpanel-abfb8.firebaseio.com',
+//   projectId: 'reactclientpanel-abfb8',
+//   storageBucket: 'reactclientpanel-abfb8.appspot.com',
+//   messagingSenderId: '629513546620'
+// };
 
 // react-redux-firebase config
 const rrfConfig = {
